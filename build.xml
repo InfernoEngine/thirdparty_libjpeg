@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <Build>
-	<Module name="ThirdPartyLibJpeg" type="thirdparty">
+	<Module name="ThirdParty" type="thirdparty">
 
 		<StaticLibrary>
-			<Name>thirdparty_libjpeg</Name>
+			<Name>ThirdParty.LibJPEG</Name>
 			<SourceRoot>.</SourceRoot>
 			<ExportedIncludeDirectory>.</ExportedIncludeDirectory>
 			<ThirdParty>true</ThirdParty>
@@ -63,7 +63,7 @@
 				jsimd_none.c
 				transupp.c
 			</ThirdPartySourceFile>
-			<Dependency>thirdparty_zlib</Dependency>
+			<Dependency>ThirdParty.Zlib</Dependency>
 		</StaticLibrary>
 
 	</Module>
